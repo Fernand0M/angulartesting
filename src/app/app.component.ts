@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 // we can have bussine logic here
 export class AppComponent {
-  title = 'angularapp';
+  title = 'Online Training App';
 }
