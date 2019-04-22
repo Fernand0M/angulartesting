@@ -8,5 +8,5 @@ import { template } from '@angular/core/src/render3';
 })
 
 export class sandbox4Component {
-   
+   person : string[] = ['Harry', 'Kumar', 'Jim', 'Sandy'];
 }

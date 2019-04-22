@@ -1,1 +1,16 @@
-<h2 class="special"> This is from SandBoxc4, external HTML</h2>
+ <h2 class="special"> This is from SandBoxc4, external HTML</h2>
+ <hr />
+
+ <ul>
+    <li *ngFor='let custom of person'>
+        {{per}}
+    </li>
+    <hr />
+    <li *ngFor='let custom of person'>
+        {{per | uppercase }}
+    </li>
+    <hr />
+    <li *ngFor='let custom of person;let i = index'>
+        {{i+1}} {{per}}
+    </li>
+</ul>
